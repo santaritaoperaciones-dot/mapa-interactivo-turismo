@@ -1,0 +1,106 @@
+{
+  "image": null,
+  "imageWidth": null,
+  "imageHeight": null,
+  "points": [
+    {
+      "id": 1,
+      "name": "Hotel Casa Real",
+      "name_en": "Hotel Casa Real",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 2,
+      "name": "Casa Parque",
+      "name_en": "Park House",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 3,
+      "name": "Iglesia",
+      "name_en": "Chapel",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 4,
+      "name": "Museo Andino",
+      "name_en": "Andean Museum",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 5,
+      "name": "Restaurant Doña Paula",
+      "name_en": "Doña Paula Restaurant",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 6,
+      "name": "Café La Panadería",
+      "name_en": "La Panadería Café",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 7,
+      "name": "Tienda de Vinos",
+      "name_en": "Wine Shop",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 8,
+      "name": "Casa Turismo",
+      "name_en": "Tourism House",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 9,
+      "name": "Parque",
+      "name_en": "Park",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 10,
+      "name": "Baños Romanos",
+      "name_en": "Roman Baths",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "id": 11,
+      "name": "Bodegas Históricas",
+      "name_en": "Historic Wine Cellars",
+      "desc": "",
+      "desc_en": "",
+      "x": null,
+      "y": null
+    }
+  ]
+}

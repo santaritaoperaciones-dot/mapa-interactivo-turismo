@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa Interactivo - Turismo</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Mapa interactivo</div>
+    <div class="actions">
+      <button id="btnLanguage" class="btn" title="Cambiar idioma">ES/EN</button>
+      <a class="btn secondary" id="btnHelp" href="README.html" target="_blank" rel="noopener">Ayuda</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <h1>Ubícate en la propiedad</h1>
+        <p class="muted">Toca un lugar para ver detalles. En modo edición podrás ubicar los puntos con un clic.</p>
+      </div>
+      <div class="search">
+        <input id="search" type="search" placeholder="Buscar lugar…" autocomplete="off" />
+      </div>
+      <ul class="list" id="list"></ul>
+
+      <div class="edit-panel" id="editPanel" hidden>
+        <h2>Modo edición</h2>
+        <p class="muted">1) Selecciona un lugar en la lista 2) Haz clic en el mapa para posicionarlo 3) Exporta el JSON.</p>
+        <div class="row">
+          <button class="btn" id="btnExport">Exportar JSON</button>
+          <button class="btn secondary" id="btnClear">Quitar posición</button>
+        </div>
+        <textarea id="exportBox" rows="6" readonly></textarea>
+      </div>
+    </aside>
+
+    <section class="mapwrap">
+      <div id="map"></div>
+      <div class="badge" id="modeBadge" hidden>EDIT</div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
