@@ -1,7 +1,7 @@
 {
-  "image": null,
-  "imageWidth": null,
-  "imageHeight": null,
+  "image": mapa.png",
+  "imageWidth": ANCHO_EN_PIXELES,
+  "imageHeight": ALTO_EN_PIXELES
   "points": [
     {
       "id": 1,
